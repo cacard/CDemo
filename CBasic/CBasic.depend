@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1397135872 source:e:\git\cdemo\cbasic\main.c
+	<stdio.h>
+	<stdlib.h>
+	"MemoryLeak.c"
+
+1397135186 e:\git\cdemo\cbasic\memoryleak.c
+	<stdio.h>
+
