@@ -5,7 +5,7 @@ int main()
 {
     printf("Hello world!\n");
 
-    Test();
+    TestNewLinkList();
 
     return 0;
 }

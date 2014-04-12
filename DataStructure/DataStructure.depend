@@ -1,8 +1,14 @@
 # depslib dependency file v1.0
-1397132320 source:e:\git\cdemo\datastructure\main.c
+1397265720 source:e:\git\cdemo\datastructure\main.c
 	<stdio.h>
 	<stdlib.h>
 
 1397132320 source:e:\git\cdemo\datastructure\simplelinklist.c
+	<stdio.h>
+
+1397132320 source:e:\git\cdemo\datastructure\simplequeue.c
+	<stdio.h>
+
+1397266045 source:e:\git\cdemo\datastructure\newlinklist.c
 	<stdio.h>
 

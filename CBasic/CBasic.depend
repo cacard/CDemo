@@ -1,9 +1,19 @@
 # depslib dependency file v1.0
-1397135872 source:e:\git\cdemo\cbasic\main.c
+1397263404 source:e:\git\cdemo\cbasic\main.c
 	<stdio.h>
 	<stdlib.h>
-	"MemoryLeak.c"
 
 1397135186 e:\git\cdemo\cbasic\memoryleak.c
 	<stdio.h>
+
+1397256746 source:e:\git\cdemo\cbasic\memoryallocation.c
+	<stdio.h>
+
+1397256614 e:\git\cdemo\cbasic\common.h
+
+1397256831 source:e:\git\cdemo\cbasic\memoryallocationusingcalloc.c
+	<stdio.h>
+	"Common.h"
+
+1397260901 source:e:\git\cdemo\cbasic\programstackandframe.c
 
