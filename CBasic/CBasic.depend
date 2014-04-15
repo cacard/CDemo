@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1397263404 source:e:\git\cdemo\cbasic\main.c
+1397550960 source:e:\git\cdemo\cbasic\main.c
 	<stdio.h>
 	<stdlib.h>
 
@@ -16,4 +16,14 @@
 	"Common.h"
 
 1397260901 source:e:\git\cdemo\cbasic\programstackandframe.c
+
+1397542282 source:e:\git\cdemo\cbasic\memoryalgin.c
+	<stdio.h>
+
+1397549738 source:e:\git\cdemo\cbasic\relativeaddress.c
+	<stdio.h>
+	<stdlib.h>
+
+1397550835 source:e:\git\cdemo\cbasic\_demo1.c
+	<stdio.h>
 

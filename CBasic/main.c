@@ -3,10 +3,7 @@
 
 int main()
 {
-    printf("Hello world!\n");
-
-    testStruct();
-
+    TestRelativeAddress();
     return 0;
 }
 

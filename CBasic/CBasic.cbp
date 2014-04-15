@@ -31,9 +31,18 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="MemoryAlgin.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="MemoryLeak.c">
 			<Option compilerVar="CC" />
 			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="RelativeAddress.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="_Demo1.c">
+			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
