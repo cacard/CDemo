@@ -1,4 +1,6 @@
-
+//
+//	struct 的字节对齐
+//
 
 #include <stdio.h>
 

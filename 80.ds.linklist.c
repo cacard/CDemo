@@ -1,6 +1,6 @@
 /*
- * LinkListÁ·Ï°
- * Òªµã£ºtypedef/½á¹¹ÔªËØµÄ³õÊ¼»¯ºÍHeapÄÚ´æ·ÖÅä/ÔªËØµÄÏú»Ù
+ * LinkListç»ƒä¹ 
+ * è¦ç‚¹ï¼štypedef/ç»“æ„å…ƒç´ çš„åˆå§‹åŒ–å’ŒHeapå†…å­˜åˆ†é…/å…ƒç´ çš„é”€æ¯
  */
 
  #include <stdio.h>
@@ -25,7 +25,7 @@ void initLinkList(LinkList * ll)
     ll->count=0;
 }
 
- // Ìí¼ÓÔªËØ
+ // æ·»åŠ å…ƒç´ 
  void AddElement(LinkList * ll,int data)
  {
      Node * pNode = (Node *)malloc(sizeof(Node));
@@ -39,15 +39,15 @@ void initLinkList(LinkList * ll)
          pNode->next=NULL;
          pNode->data=data;
 
-         if(ll->head==NULL) // Èç¹ûÌí¼ÓµÄÊÇLinkListµÄµÚÒ»¸öÔªËØ£¬³õÊ¼»¯head
+         if(ll->head==NULL) // å¦‚æœæ·»åŠ çš„æ˜¯LinkListçš„ç¬¬ä¸€ä¸ªå…ƒç´ ï¼Œåˆå§‹åŒ–head
          {
              ll->head=pNode;
              ll->tail=pNode;
          }
          else
          {
-              ll->tail->next=pNode; // ÉèÖÃÉÏ¸ö½áµãµÄnextÖ¸ÏòĞÂ½áµã
-              ll->tail=pNode;       // ¸üĞÂtail
+              ll->tail->next=pNode; // è®¾ç½®ä¸Šä¸ªç»“ç‚¹çš„nextæŒ‡å‘æ–°ç»“ç‚¹
+              ll->tail=pNode;       // æ›´æ–°tail
          }
 
          ll->count++;

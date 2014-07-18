@@ -1,5 +1,5 @@
 /*
- * ProgramStack包含了众多Frame，每个方法或者block均有自己的Frame。线程有各自的ProgramStack
+ * ProgramStack鍖呭惈浜嗕紬澶欶rame锛屾瘡涓柟娉曟垨鑰卋lock鍧囨湁鑷繁鐨凢rame銆傜嚎绋嬫湁鍚勮嚜鐨凱rogramStack
  *
  */
 

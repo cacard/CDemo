@@ -1,7 +1,7 @@
 /*
 * calloc
-* ��˼��Alloc + Clear
-* �ڴ��ڷ���ʱ����ʼ��Ϊ0
+* 意思是Alloc + Clear
+* 内存在分配时被初始化为0
 */
 
 #include <stdio.h>

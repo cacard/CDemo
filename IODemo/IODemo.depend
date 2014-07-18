@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1397113098 source:e:\git\cdemo\iodemo\main.c
-	<stdio.h>
-	<stdlib.h>
-
-1397113238 source:e:\git\cdemo\iodemo\standio.c
-
