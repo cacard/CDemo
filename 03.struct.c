@@ -52,3 +52,8 @@ void testStruct()
     p=NULL;
 }
 
+int main(int argc,char* argv[])
+{
+	testStruct();
+	return 0;
+}
