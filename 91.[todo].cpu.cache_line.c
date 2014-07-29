@@ -8,7 +8,7 @@
 #include <string.h>
 
 #define BUFFER_SIZE=9999999;
-char ary[BUFFER_SIZE] __attrbute__((__aligened__((64)),__section__(".data.cacheline_aligned"))) ;
+char ary[BUFFER_SIZE] __attribute__ ((aligned (64))) = {0};
 
 int main(int argc,char* argv[])
 {
