@@ -52,6 +52,17 @@ int atoi(char* str)
 
 }
 
+// K&R's 
+vid atoi2(char s[])
+{
+	int i,n;
+	n=0;
+	for (i=0; s[i]>='0' && s[i] <= '9';++i)
+		n = 10*n + (s[i] - '0');		// 正常人的思维能“原创”地想到使用这种方法？
+	
+	return 0;
+}
+
 void testAtoi()
 {
 	char* str1="12345";
