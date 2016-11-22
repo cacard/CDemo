@@ -34,6 +34,6 @@ int main(int argc,char* argv[])
 	printf("sizeof signed short:%d\r\n",sizeof(aa));
 	printf("sizeof signed int:%d\r\n",sizeof(bb));
 	printf("sizeof signed long:%d\r\n",sizeof(cc));
-
+	printf("over\n");
 	return 0;
 }
